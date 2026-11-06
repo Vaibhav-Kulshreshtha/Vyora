@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+
+# Next.js build
+.next/
+out/
+build/
+dist/
+
+# Environment files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Database & local data
+data/*.sqlite*
+!data/.gitkeep
+
+# TypeScript
+tsconfig.tsbuildinfo
+next-env.d.ts
+
+# OS
+.DS_Store
+*.pem
